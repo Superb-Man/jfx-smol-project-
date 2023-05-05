@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="390.0" style="-fx-background-color: #808080;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientGui.Controller.Edit">
+   <children>
+      <ImageView fx:id="backGround" fitHeight="352.0" fitWidth="390.0" layoutX="0.0" layoutY="0.0" mouseTransparent="true" nodeOrientation="INHERIT" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/UEFA_BALL.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <JFXTextField fx:id="positionField" focusColor="WHITE" labelFloat="true" layoutX="78.0" layoutY="54.0" prefHeight="26.0" prefWidth="215.0" promptText="Position" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="jerseyField" focusColor="WHITE" labelFloat="true" layoutX="78.0" layoutY="128.0" prefHeight="26.0" prefWidth="215.0" promptText="jersey" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="salaryField" focusColor="WHITE" labelFloat="true" layoutX="78.0" layoutY="207.0" prefHeight="26.0" prefWidth="215.0" promptText="Salary" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="saveButton" buttonType="RAISED" layoutX="85.0" layoutY="280.0" onAction="#SaveData" prefHeight="39.0" prefWidth="88.0" style="-fx-background-color: orange; -fx-background-radius: 10px;" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="cancelButton" buttonType="RAISED" layoutX="236.0" layoutY="280.0" onAction="#cancelEdit" prefHeight="39.0" prefWidth="88.0" style="-fx-background-color: #FE8282; -fx-background-radius: 10px;" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="12.0" layoutY="130.0" prefHeight="74.0" prefWidth="366.0" text="Do you really want to sell? Set the price" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="playerNameLabel" layoutX="25.0" layoutY="14.0" prefHeight="47.0" prefWidth="296.0" text="PlayerName" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="price" focusColor="WHITE" labelFloat="true" layoutX="43.0" layoutY="194.0" prefHeight="39.0" prefWidth="289.0" promptText="\$$$" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fx:id="imageView" fitHeight="102.0" fitWidth="124.0" layoutX="25.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="clubImage" fitHeight="74.0" fitWidth="95.0" layoutX="257.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

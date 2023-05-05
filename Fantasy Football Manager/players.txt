@@ -1,0 +1,45 @@
+David de Gea,Spain,30,1.92,Manchester United,Goalkeeper,1,375000.0,0.0,Assets/David de Gea.png
+Harry Maguire,England,28,1.94,Manchester United,Defender,5,189904.0,0.0,Assets/Harry Maguire.png
+Paul Pogba,France,28,1.91,Manchester United,Midfielder,6,290000.0,0.0,Assets/Paul Pogba.png
+Bruno Fernandes,Portugal,26,1.79,Manchester United,Midfielder,18,180000.0,0.0,Assets/Bruno Fernandes.png
+Edinson Cavani,Uruguay,34,1.84,Manchester United,Forward,7,210000.0,0.0,Assets/Edinson Cavani.png
+Ederson,Brazil,27,1.88,Manchester City,Goalkeeper,31,65000.0,0.0,Assets/Ederson.png
+Ruben Dias,Portugal,24,1.86,Manchester City,Defender,3,115385.0,0.0,Assets/Ruben Dias.png
+Kevin De Bruyne,Belgium,29,1.81,Manchester City,Midfielder,17,385000.0,0.0,Assets/Kevin De Bruyne.png
+Ilkay Gundogan,Germany,30,1.8,Manchester City,Midfielder,8,140000.0,0.0,Assets/Ilkay Gundogan.png
+Raheem Sterling,England,26,1.7,Manchester City,Forward,7,300000.0,0.0,Assets/Raheem Sterling.png
+Edouard Mendy,Senegal,29,1.97,Chelsea,Goalkeeper,16,75000.0,0.0,Assets/Edouard Mendy.png
+Cesar Azpilicueta,Spain,31,1.78,Chelsea,Defender,28,145000.0,0.0,Assets/Cesar Azpilicueta.png
+N'Golo Kante,France,30,1.68,Chelsea,Midfielder,7,144231.0,0.0,Assets/N'Golo Kante.png
+Jorginho,Italy,29,1.8,Chelsea,Midfielder,5,110000.0,0.0,Assets/Jorginho.png
+Timo Werner,Germany,25,1.8,Chelsea,Forward,11,170000.0,0.0,Assets/Timo Werner.png
+Alisson,Brazil,28,1.91,Liverpool,Goalkeeper,1,150000.0,0.0,Assets/Alisson.png
+Virgil van Dijk,Netherlands,29,1.93,Liverpool,Defender,4,180000.0,0.0,Assets/Virgil van Dijk.png
+Jordan Henderson,England,30,1.82,Liverpool,Midfielder,14,140000.0,0.0,Assets/Jordan Henderson.png
+Thiago Alcantaram,Brazil,30,1.74,Liverpool,Midfielder,6,200000.0,0.0,Assets/Thiago Alcantaram.png
+Mohamed Salah,Egypt,28,1.75,Liverpool,Forward,11,200000.0,0.0,Assets/Mohamed Salah.png
+Bernd Leno,Germany,29,1.9,Arsenal,Goalkeeper,1,100000.0,0.0,Assets/Bernd Leno.png
+Hector Bellerin,Spain,26,1.78,Arsenal,Defender,2,110000.0,0.0,Assets/Hector Bellerin.png
+Granit Xhaka,Switzerland,28,1.85,Arsenal,Midfielder,34,100000.0,0.0,Assets/Granit Xhaka.png
+Thomas Partey,Ghana,27,1.85,Arsenal,Midfielder,18,250000.0,0.0,Assets/Thomas Partey.png
+Pierre-Emerick Aubameyang,Gabon,31,1.87,Arsenal,Forward,14,250000.0,0.0,Assets/Pierre-Emerick Aubameyang.png
+Divock Origi,Belgium,26,1.83,Liverpool,Forward,5,1000000.0,0.0,Assets/Divock Origi.png
+James Milner,England,35,1.73,Liverpool,Midfielder,12,1000000.0,0.0,Assets/James Milner.png
+Shakiri,Switzerland,30,1.67,Liverpool,Midfielder,19,2300000.0,0.0,Assets/Shakiri.png
+Robertson,Scotland,27,1.77,Liverpool,Defender,23,2300000.0,0.0,Assets/Robertson.png
+Phil Foden,England,20,1.7,Manchester City,Midfielder,10,2000000.0,0.0,Assets/Phil Foden.png
+Maharez,Algeria,30,1.78,Manchester City,Forward,19,2400000.0,0.0,Assets/Maharez.png
+Gabriel Jesus,Brazil,24,1.73,Manchester City,Forward,9,1000000.0,0.0,Assets/Gabriel Jesus.png
+Kyle Walker,England,31,1.78,Manchester City,Defender,21,2000000.0,0.0,Assets/Kyle Walker.png
+Marcus Rashford,England,24,1.78,Manchester United,Forward,10,2500000.0,0.0,Assets/Marcus Rashford.png
+Martial,France,26,1.8,Manchester United,Forward,9,1900000.0,0.0,Assets/Martial.png
+Luke Shaw,England,26,1.83,Manchester United,Defender,8,1000000.0,0.0,Assets/Luke Shaw.png
+Juan Mata,Spain,33,1.67,Manchester United,Midfielder,19,1000000.0,0.0,Assets/Juan Mata.png
+Thiago Silva,Brazil,36,1.83,Chelsea,Defender,3,2000000.0,0.0,Assets/Thiago Silva.png
+Mason Mount,England,22,1.78,Chelsea,Midfielder,10,1000000.0,0.0,Assets/Mason Mount.png
+Kai Hevertz,Germany,22,1.88,Chelsea,Midfielder,18,1000000.0,0.0,Assets/Kai Hevertz.png
+Pulisic,USA,23,1.7,Chelsea,Forward,12,1000000.0,0.0,Assets/Pulisic.png
+Willian,Brazil,33,1.72,Arsenal,Forward,10,1000000.0,0.0,Assets/Willian.png
+Lacazette,France,30,1.72,Arsenal,Forward,19,1000000.0,0.0,Assets/Lacazette.png
+Gabriel Martinellil,Brazil,20,1.78,Arsenal,Midfielder,11,1000000.0,0.0,Assets/Gabriel Martinellil.png
+Saka,England,20,1.78,Arsenal,Midfielder,9,1000000.0,0.0,Assets/Saka.png

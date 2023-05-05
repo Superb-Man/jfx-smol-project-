@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="793.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientGui.Controller.Menu">
+   <top>
+      <AnchorPane prefHeight="69.0" prefWidth="800.0" style="-fx-background-color: #454545;">
+         <children>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="1.0" prefHeight="68.0" prefWidth="250.0" text="Fantasy Football" textFill="#fffcfc">
+               <font>
+                  <Font name="Eras Bold ITC" size="24.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="homeButton" alignment="CENTER" layoutX="385.0" layoutY="15.0" onAction="#showCards" prefHeight="39.0" prefWidth="88.0" style="-fx-background-color: #5C5C5C;" text="Home" textFill="#fffcfc" AnchorPane.rightAnchor="271.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="playerButton" alignment="CENTER" layoutX="466.0" layoutY="15.0" onAction="#showPlayerSearchOptionTab" prefHeight="39.0" prefWidth="97.0" style="-fx-background-color: #5C5C5C;" text="Player" textFill="#fffcfc" AnchorPane.rightAnchor="180.39999999999998">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="clubButton" layoutX="525.0" layoutY="15.0" onAction="#showClubOptionTab" prefHeight="39.0" prefWidth="78.0" style="-fx-background-color: #5C5C5C;" text="Club" textFill="#fffcfc" AnchorPane.rightAnchor="104.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="marketButton" layoutX="629.0" layoutY="15.0" onAction="#getMarketList" style="-fx-background-color: #5C5C5C;" text="Market" textFill="#fffcfc" AnchorPane.rightAnchor="29.399999999999977">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="700.0" prefWidth="212.0" style="-fx-background-color: #666666;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="userNameField" alignment="CENTER" layoutX="24.0" layoutY="145.0" prefHeight="40.0" prefWidth="164.0" style="-fx-background-color: #E7E7DE;" text="Manchester United" textFill="#0b0303">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="logOutButton" buttonType="RAISED" layoutX="42.0" layoutY="608.0" onAction="#logOut" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #FA8072;" text="Log Out" textFill="#361616">
+               <font>
+                  <Font name="Bell MT Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="imageView" fitHeight="92.0" fitWidth="82.0" layoutX="65.0" layoutY="42.0" />
+            <VBox layoutX="24.0" layoutY="203.0" prefHeight="129.0" prefWidth="166.0">
+               <children>
+                  <JFXButton fx:id="clubInfoButton" buttonType="RAISED" onAction="#showClubInfo" prefHeight="62.0" prefWidth="166.0" style="-fx-background-color: #454545;" text="Club Info" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="resetButton" buttonType="RAISED" onAction="#setResetButton" prefHeight="67.0" prefWidth="166.0" style="-fx-background-color: #454545 #454545;" text="Reset" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+   <bottom>
+      <AnchorPane prefHeight="24.0" prefWidth="200.0" style="-fx-background-color: #454545;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="710.0" prefWidth="618.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="71.0" layoutY="31.0" prefHeight="710.0" prefWidth="487.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane fx:id="OptionTab" maxHeight="50.0" prefHeight="9.0" prefWidth="558.0" style="-fx-background-color: #454545;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <JFXButton fx:id="nameButton" layoutX="282.0" layoutY="2.0" onAction="#setSubOption1" prefHeight="18.0" prefWidth="50.0" style="-fx-background-color: #454545;" text="Name" textFill="WHITE" AnchorPane.rightAnchor="226.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="countryButton" layoutX="333.0" layoutY="2.0" onAction="#setSubOption2" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #454545;" text="Country" textFill="WHITE" AnchorPane.rightAnchor="153.39999999999998">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="positionButton" layoutX="403.0" layoutY="2.0" onAction="#setSubOption3" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #454545;" text="Position" textFill="WHITE" AnchorPane.rightAnchor="83.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="salaryButton" layoutX="475.0" layoutY="2.0" onAction="#setSubOption4" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #454545;" text="Salary" textFill="WHITE" AnchorPane.rightAnchor="13.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="maxSalaryButton" layoutX="256.0" layoutY="2.0" onAction="#getMaxSalaryList" style="-fx-background-color: #454545;" text="MaxSalary" textFill="WHITE" AnchorPane.rightAnchor="227.2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="maxHeightButton" layoutX="324.0" layoutY="1.0" onAction="#getMaxHeightList" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: #454545;" text="MaxHeight" textFill="WHITE" AnchorPane.rightAnchor="144.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="maxAgeButton" layoutX="414.0" layoutY="1.0" onAction="#getMaxAgeList" prefHeight="26.0" prefWidth="77.0" style="-fx-background-color: #454545;" text="MaxAge" textFill="WHITE" AnchorPane.rightAnchor="66.79999999999995">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="clubCostButton" layoutX="485.0" layoutY="2.0" onAction="#getClubCost" style="-fx-background-color: #454545;" text="ClubCost" textFill="WHITE" AnchorPane.rightAnchor="7.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="oneFieldTab" maxHeight="40.0" prefHeight="40.0" prefWidth="557.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <JFXTextField fx:id="Input" labelFloat="true" layoutX="85.0" layoutY="18.0" prefHeight="26.0" prefWidth="287.0" promptText="Search Here" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="150.0">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label fx:id="SearchName" alignment="CENTER" layoutX="6.0" layoutY="10.0" prefHeight="37.0" prefWidth="82.0" text="search">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Label>
+                        <JFXButton fx:id="searchButton_one" buttonType="RAISED" layoutX="446.0" layoutY="10.0" onAction="#getTheList" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #7fffd4;" text="Search" AnchorPane.rightAnchor="28.399999999999977">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="twoFieldTab" maxHeight="40.0" prefHeight="40.0" prefWidth="556.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label alignment="CENTER" layoutX="7.0" layoutY="17.0" prefHeight="18.0" prefWidth="66.0" text="Low ">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="197.0" layoutY="17.0" text="High">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="Input1" layoutX="60.0" layoutY="7.0" prefHeight="26.0" prefWidth="122.0">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="Input2" layoutX="240.0" layoutY="7.0" prefHeight="26.0" prefWidth="166.0">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton fx:id="searchButton_two" buttonType="RAISED" layoutX="423.0" layoutY="12.0" onAction="#getTheListBySalary" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #7fffd4;" text="Search">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+                  <ScrollPane fitToWidth="true" prefHeight="469.0" prefWidth="556.0" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
+                     <content>
+                        <FlowPane fx:id="playerCardFlowPane" hgap="20.0" vgap="20.0">
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </FlowPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

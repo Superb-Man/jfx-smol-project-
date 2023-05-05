@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="698.0" style="-fx-background-color: #4d4d4d;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientGui.Controller.Details">
+   <children>
+      <ImageView fx:id="backGround" fitHeight="473.0" fitWidth="705.0" layoutX="0.0" layoutY="0.0" mouseTransparent="true" nodeOrientation="INHERIT" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/UEFA_BALL.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Label layoutX="277.0" layoutY="140.0" prefWidth="68.0" text="Country" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="192.0" prefHeight="22.0" prefWidth="55.0" text=" Age" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="238.0" text="Height" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="289.0" text="Jersey Number" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="406.0" text="Weekly Salary" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="282.0" layoutY="322.0" prefHeight="38.0" prefWidth="99.0" text="Status" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="countryField" layoutX="443.0" layoutY="138.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ageField" layoutX="443.0" layoutY="189.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="heightField" layoutX="443.0" layoutY="236.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="clubField" layoutX="443.0" layoutY="89.0" prefHeight="27.0" prefWidth="215.0" text="manchetser united" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="positionField" layoutX="8.0" layoutY="404.0" prefHeight="27.0" prefWidth="155.0" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="535.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="jerseyField" layoutX="443.0" layoutY="286.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="salaryField" layoutX="322.0" layoutY="404.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="322.0" AnchorPane.rightAnchor="161.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusField" layoutX="443.0" layoutY="328.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #23395d;" text="   Label" textFill="WHITE" AnchorPane.leftAnchor="443.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="backButton" buttonType="RAISED" layoutX="575.0" layoutY="411.0" onAction="#backButtonAction" prefHeight="39.0" prefWidth="83.0" style="-fx-background-color: #23398d; -fx-background-radius: 10px;" text="Back" textFill="WHITE" AnchorPane.leftAnchor="575.0" AnchorPane.rightAnchor="40.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="imageView" fitHeight="258.0" fitWidth="228.0" layoutX="22.0" layoutY="54.0" />
+      <Label fx:id="nameField" layoutX="8.0" layoutY="355.0" prefHeight="49.0" prefWidth="482.0" text="Piyere Emirick Aubameyangg" textFill="#dfc4c4">
+         <font>
+            <Font name="Lucida Fax Demibold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="clubImage" fitHeight="61.0" fitWidth="83.0" layoutX="454.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="273.0" layoutY="54.0" prefHeight="27.0" prefWidth="68.0" text="Club" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

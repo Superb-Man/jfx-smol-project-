@@ -1,0 +1,5 @@
+Manchester United,manchesterunited,5000000000,Ole Gunner,Assets/Manchester United.png,Assets/Ole Gunner.png
+Manchester City,manchestercity,10000000000,Pep Guardiola,Assets/Manchester City.png,Assets/Pep Guardiola.png
+Chelsea,chelsea,3000000000,Thomas Tuchel,Assets/Chelsea.png,Assets/Thomas Tuchel.png
+Arsenal,arsenal,2000000000,Mikel Arteta,Assets/Arsenal.png,Assets/Mikel Arteta.png
+Liverpool,liverpool,5000000000,Jurgen Klopp,Assets/Liverpool.png,Assets/Jurgen Klopp.png
